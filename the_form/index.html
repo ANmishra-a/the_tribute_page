@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>survey</title>
+</head>
+<body>
+    <div class="hero-image">
+    <div class="parent">
+        <h1 id="title">Yaman Music Classes</h1>
+
+       <p id="description">Thankyou for taking the time to heip us understand your needs</p>
+</div>
+    
+<div class="form">
+    <form id="survey-form">
+  <label id="name-label">Name</label><br>
+  <input id="name" type="text" placeholder="Enter your name" required></input>
+<br>
+<label id="email-label">Email</label><br>
+<input  type="email"id="email"
+        required
+placeholder="Enter your email"
+</input>
+<br>
+<label id="number-label">Age</label><br>
+<input id="number" type="number"
+placeholder="age"
+       min="1" max="70"</input>
+<br>
+<label id="dropdown-label">Which option describe your music knowledge</label><br>
+<select id="dropdown">
+    <option value="Beginner">Beginner</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Expert">Expert</option>
+</select>
+<br>
+<p>Which music istrument you want to learn?</p>
+<input type="radio"  name="Instrument" value="Piano">
+  <label id="Piano">Paino</label><br>
+<input type="radio"  name="Instrument" value="Harmonium">
+  <label id="Harmonium">Harmonium</label><br>
+<input type="radio"  name="Instrument" value="Guitar">
+  <label id="Guitar">Guitar</label><br>
+<input type="radio"  name="Instrument" value=" Violin">
+  <label id="Violin"> Violin</label><br>
+<input type="radio"  name="Instrument" value="Marímbula">
+  <label id="Marimbula">Marímbula</label><br>
+<p>What type of music do you like?</p>
+<input type="checkbox"  name="rock" value="Rock">
+<label id="Rock" for="rock">Rock</lable><br>
+<input type="checkbox"  name="Clasical music" value="Clasical music">
+<label id="Clasical music"for="Clasical music">Clasical music</lable><br>
+<input type="checkbox"  name="pop" value="pop">
+<label id="pop" for="pop">pop music</lable><br>
+<input type="checkbox"  name="ghazal " value="ghazal ">
+<label id="ghazal" for="ghazal ">Ghazal </lable><br>
+<input type="checkbox"  name="Qawwali" value="Qawwali">
+<label id="Qawwali" for="Qawwali">Qawwali</lable><br>
+<p>Any questions please ask in the comment section?</p>
+<textarea name="comment" id="textarea"placeholder="type your comment here..." name="form" rows="4" cols="50"></textarea><br>
+<input id="submit" type="submit">
+
+
+</form>
+</div>
+</div>
+</body>
+</html>

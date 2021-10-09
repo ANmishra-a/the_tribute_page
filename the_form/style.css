@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+margin:0px 0px 0px 0px;
+}
+.hero-image {
+    margin-top: 0%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.freepik.com/free-photo/wooden-table-there-are-musical-keys-acoustic-guitar-bass-guitar-sound-mixer-headphones-computer-drum-sticks_169016-9505.jpg");
+    height: 100em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.parent{
+    margin-top:0px;
+    text-align: center;
+    color:rgb(14, 198, 223);
+    font-size:larger;
+}
+#title{
+    font-size:100px;
+}
+.form{
+    box-shadow: 9px 2px 10px rgba(194, 100, 24, 0.63) ;
+    padding: 40px 25px 25px 30px;
+    text-align:start;
+    height: 45em;
+    width: 45vw;
+    margin: 1% 25% 10% 25% ;
+    border-radius:3% 9%;
+    background: rgba(131,58,180,0.1);
+background: linear-gradient(97deg, rgba(131,58,180,0.1) 0%, rgba(253,29,29,0.2) 50%, rgba(252,176,69,0.3) 100%);
+}
+#name-label,#email-label,#number-label,#dropdown-label,p {
+    color:rgb(31, 216, 216);
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+
+}
+
+#Piano,#Harmonium,#Guitar,#Violin,#Marimbula {
+    color:rgb(31, 216, 216);
+}
+#Clasical,#pop,#Ghazal,#Rock,#Qawwali{
+    color:rgb(31, 216, 216);
+}
+#submit{
+    
+    border-radius:15%;
+    padding:15px;
+    border:transparent;
+    background-color:orange;
+    box-shadow: 4px 4px 6px orange;
+    color:rgb(30, 29, 31);
+}
+#textarea{
+    border-radius: 5%;
+}
